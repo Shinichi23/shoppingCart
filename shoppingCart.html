@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="shoppingCart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+
+
+  <div class="text-center alert alert-primary bg-warning border-0">
+    <p class="font"><b>TOTAL</b></p>
+    <h1 id='sum'  class="" role="alert"></h1>
+    <p class="font"><b>$</b></p>
+  </div>
+
+<div id="cards" class="d-flex justify-content-around">
+    <div class="card" style="width: 18rem;">
+        <i id="delete" class="fas fa-times-circle btn btn-primary bg-danger border-0"></i>
+        <img src="https://pic.clubic.com/v1/images/1802952/raw-accept?hash=d6292f2a3cf231927be8d73a027543a9fa5b1cd8" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Playstation 5</strong></h5>
+          <p class="card-text">Price: <b id="price">599</b> $</p>
+          <i id="Ok" class="fas fa-heart btn btn-primary"></i>
+          <div class="btn-group float-right" role="group" aria-label="Basic example">
+            <button id="mines" type="button" class="btn btn-secondary btn-dark">-</button>
+            <button id="num" type="button" class="btn btn-secondary" disabled>1</p>
+            <button id="plus" type="button" class="btn btn-secondary btn-dark">+</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="card bg-light" style="width: 18rem;">
+      <i id="del" class="fas fa-times-circle btn btn-primary bg-danger border-0"></i>
+      <img src="https://www.journaldugeek.com/content/uploads/2019/12/xbox-series-x.jpg" class="card-img-top" alt="Xbox">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Xbox Series X</strong></h5>
+        <p class="card-text">Price: <b id="prix">550</b> $</p>
+        <i id="yes" class="fas fa-heart btn btn-primary"></i>
+        <div class="btn-group float-right" role="group" aria-label="Basic example">
+          <button id="take" type="button" class="btn btn-secondary btn-dark">-</button>
+          <button id="number" type="button" class="btn btn-secondary" disabled>1</p>
+          <button id="add" type="button" class="btn btn-secondary btn-dark">+</button>
+        </div>
+      </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <i id="none" class="fas fa-times-circle btn btn-primary bg-danger border-0"></i>
+    <img src="https://cdn03.nintendo-europe.com/media/images/10_share_images/systems_11/nintendo_switch_1/H2x1_NintendoSwitch_Hardware_NintendoSwitch_image1280w.jpg" class="card-img-top" alt="Switch">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Nintendo Switch</strong></h5>
+      <p class="card-text">Price: <b id="prezo">445</b> $</p>
+      <i id="like" class="fas fa-heart btn btn-primary"></i>
+      <div class="btn-group float-right" role="group" aria-label="Basic example">
+        <button id="moins" type="button" class="btn btn-secondary btn-dark">-</button>
+        <button id="numero" type="button" class="btn btn-secondary" disabled>1</p>
+        <button id="ajout" type="button" class="btn btn-secondary btn-dark">+</button>
+      </div>
+    </div>
+  </div>
+</div>  
+    
+
+
+    <script src="shoppingCart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
